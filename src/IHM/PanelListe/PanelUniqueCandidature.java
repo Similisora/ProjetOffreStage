@@ -28,7 +28,7 @@ import Objet.Entreprise;
 import Objet.OffreStage;
 
 public class PanelUniqueCandidature extends JPanel {
-	//Un panel qui dÈcrit une candidature
+	//Un panel qui d√©crit une candidature
 	//Il apparaitrat dans le JPanelListeCandidature
 	
 	JLabel nomEntreprise = new JLabel();
@@ -61,8 +61,8 @@ public class PanelUniqueCandidature extends JPanel {
 		this.o = o;
 		this.c = c;
 		
-		entreprise.setText("DÈtails sur " + e.getNom());	
-		offre.setText("DÈtails sur " + o.getLibellÈOffre());
+		entreprise.setText("D√©tails Enteprise");	
+		offre.setText("D√©tails Offre");
 		
 		etat.setFont(police);
 		
@@ -100,7 +100,7 @@ public class PanelUniqueCandidature extends JPanel {
 				mere.setVisible(false);
 				f.setVisible(true);
 				
-				JOptionPane.showMessageDialog(null, "La candidature ‡ l'offre "+o.getLibellÈOffre()+" a bien ÈtÈ retirÈe !",	
+				JOptionPane.showMessageDialog(null, "La candidature √† l'offre "+o.getLibell√©Offre()+" a bien √©t√© retir√©e !",	
 						"Information", JOptionPane.INFORMATION_MESSAGE);
 
 				
