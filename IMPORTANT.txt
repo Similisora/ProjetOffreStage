@@ -1,0 +1,29 @@
+Bien que je vous ai envoyé ma base de donnée en .sql dans mon git,
+voici quelques données qui pourront vous aider :
+
+Pour se connecter en tant qu'Admin (il est unique) et avoir accès à toutes nos données
+de notre base de données :
+
+
+
+		**Admin**
+ID : 69
+Mot de passe : admin
+
+
+
+Une fois connecté en tant qu'admin vous aurez accès aux logins des etudiants et entreprises
+Mais comme les mots de passe sont cryptés, je vous donne quelques exemple de ma BDD :
+
+
+
+		**Etudiant**
+ID : 1
+Mot de passse : mdp
+
+
+
+		**Entreprise**
+
+ID : 125
+Mot de passe : mdp
